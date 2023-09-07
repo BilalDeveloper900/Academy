@@ -1,0 +1,175 @@
+*{
+	margin: 0px;
+}
+    	/*HEADER*/
+#container-f{
+	background-color: white;
+	height: auto;
+}
+#th{
+	color: black;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 20px;
+}
+#th:hover{
+	color: #54d1a7;
+	transition: .5s;
+	cursor: pointer;
+}
+
+nav{
+	text-align: center;
+	margin-top: 10px;
+}
+
+nav a{
+	color: black;
+}
+nav a:hover{
+	text-decoration: none;
+	color: #54d1a7;
+	transition: 1s;
+}
+		/*BACKGROUNG IMAGE*/
+#bi1{
+	background-image: url(../images/event.jpg);
+	background-size: cover;
+	height: 629px;
+	width: 100%;
+}
+		/*HEADING & IMAGES*/
+#container1{
+	margin-top: 30px;
+}
+h1{
+	cursor: pointer;
+}
+h1:hover{
+	color: #54bad1;
+	transition: 1s;
+}
+#col1{
+	margin-top: 20px;
+	margin-left: 13px;
+}
+#img1{
+	border-radius: 10px;
+	width: 100%;
+}
+#row{
+	margin-top: 30px;
+}
+#img2{
+	border-radius: 8px;
+	margin-left: 12px;
+	cursor: pointer;
+	/*position: relative;
+	display: block;
+	overflow: hidden;*/
+}
+#img2:hover{
+	margin-top: -5px;
+	transition: 1s;
+	/*transform: scale(1.1);
+	transition transform: 1s;*/
+}
+#img3{
+	border-radius: 8px;
+	margin-left: 15.5px;
+	cursor: pointer;
+}
+#img3:hover{
+	margin-top: -5px;
+	transition: 1s;
+	/*transform: scale(1.1);
+	transition transform: 1s;*/
+}
+#img4{
+	border-radius: 8px;
+	margin-left: 18px;
+	cursor: pointer;
+}
+#img4:hover{
+	margin-top: -5px;
+	transition: 1s;
+	/*transform: scale(1.1);
+	transition transform: 1s;*/
+}
+#row1{
+	margin-top: 30px;
+}
+		/*FRONT IMAGE*/
+#cf{
+	margin-top: 40px;
+}
+#img5{
+	height: 600px;
+	width: 100%;
+}
+		/*FOOTER*/
+footer {
+  background-color: #212121;
+  color: #fff;
+  padding: 40px 0;
+  margin-top: 50px;
+}
+
+footer h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+footer p {
+  line-height: 1.5;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: none;
+  color: #54d1a7;
+}
+
+.fa {
+  display: inline-block;
+  width: 20px;
+  margin-right: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer-bottom {
+  background-color: #000;
+  padding: 20px 0;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
+		/*MAP*/
+#cont{
+	margin-top: 20px;
+}
+#map{
+	height: 300px;
+	width: 100%;
+}

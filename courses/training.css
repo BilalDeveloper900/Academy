@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Courgette&family=Domine:wght@500&family=Gloock&family=Heebo:wght@300&family=Josefin+Sans&family=Julee&family=Kanit:wght@300;500&family=Lobster&family=Merriweather:wght@300;400&family=Nunito:wght@300;400;500&family=Oswald:wght@200&family=Pacifico&family=Permanent+Marker&family=Quicksand:wght@300&family=Raleway:ital,wght@0,600;1,400&family=Rowdies:wght@300;400;700&family=Satisfy&display=swap');
+*{
+	margin: 0px;
+}
+		/*BACKGROUND IMAGE */
+#BI3{
+	background-image: url('../images/bg2.jpg');
+	background-size: cover;
+	height: 625px;
+	background-attachment: fixed;
+}
+		/*HEADER*/
+#container-fluid{
+	background-color: white;
+	height: auto;
+}
+#th{
+	color: black;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 20px;
+}
+#th:hover{
+	color: #54d1a7;
+	transition: .5s;
+	cursor: pointer;
+}
+
+nav{
+	text-align: center;
+	margin-top: 10px;
+}
+
+nav a{
+	color: black;
+}
+nav a:hover{
+	text-decoration: none;
+	color: #54d1a7;
+	transition: 1s;
+}
+#con{
+	margin-top: 340px;
+}
+h1{
+	text-align: center;
+	font-family: 'Courgette', cursive;
+}
+		/*HEADING*/
+#container{
+	margin-top: 50px;
+}
+#h2{
+	margin-top: 20px;
+	font-family: 'Domine', serif;
+	color:  #768c7c;
+}
+#p1{
+	margin-top: 10px;
+	margin-left: 23px;
+	text-align: justify;
+}
+#img2{
+	width: 100%;
+}
+		/*FOOTER*/
+footer {
+  background-color: #212121;
+  color: #fff;
+  padding: 40px 0;
+  margin-top: 50px;
+}
+
+footer h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+footer p {
+  line-height: 1.5;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: none;
+  color: #54d1a7;
+}
+
+.fa {
+  display: inline-block;
+  width: 20px;
+  margin-right: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer-bottom {
+  background-color: #000;
+  padding: 20px 0;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
+		/*MAP*/
+#cont{
+	margin-top: 20px;
+}
+#map{
+	height: 300px;
+	width: 100%;
+}
